@@ -5,10 +5,9 @@ const Home: NextPage = () => {
   return (
     <div className="bg-gray-500 h-screen">
       <div className="flex items-center justify-center h-full gap-[3rem]">
-        <div className='bg-red-500 min-h-[30rem] min-w-[30rem]'></div>
-        <div className='bg-red-500 min-h-[30rem] min-w-[30rem]'></div>
-        <div className='bg-red-500 min-h-[30rem] min-w-[30rem]'></div>
-        <Tile>TEST</Tile>
+        <Tile className="bg-gradient-to-tr to-blue-400 from-green-500">Dołącz do rozgrywki</Tile>
+        <Tile className="bg-gradient-to-tr to-red-400 from-indigo-500">Dodaj pytanie</Tile>
+        <Tile className="bg-gradient-to-tr to-lime-400 from-yellow-500">Ranking</Tile>
       </div>
     </div>
   )
